@@ -72,12 +72,12 @@ print("MAC Address:", mac)
 client.close()
 ~~~
 ## OUPUT - ARP
-### Server - Output:
+## Server - Output:
 <img width="764" height="313" alt="image" src="https://github.com/user-attachments/assets/7d70ee05-739e-4e5b-836e-6bdd78e2c587" />
-### Client - Output:
+## Client - Output:
 <img width="678" height="283" alt="image" src="https://github.com/user-attachments/assets/6df0a2ed-6e6e-4cc7-8f34-3fb3832a164f" />
 ## PROGRAM - RARP
-### Server:
+## Server:
 ~~~
 import socket
 
@@ -110,7 +110,7 @@ conn.send(ip_address.encode())
 conn.close()
 server.close()
 ~~~
-### Client:
+## Client:
 ~~~
 import socket
 
@@ -132,9 +132,9 @@ print("IP Address:", ip)
 client.close()
 ~~~
 ## OUPUT -RARP
-### Server - Output:
+## Server - Output:
 <img width="740" height="320" alt="image" src="https://github.com/user-attachments/assets/0adce9a0-5db2-496e-bf52-54c67b20a09d" />
-### Client - Output:
+## Client - Output:
 <img width="648" height="297" alt="image" src="https://github.com/user-attachments/assets/5f0ecbc9-0a8a-49db-a235-ae8beb9be0d0" />
 
 
